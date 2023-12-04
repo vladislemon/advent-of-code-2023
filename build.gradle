@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group = 'net.vladislemon.aoc2023'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
+
+test {
+    useJUnitPlatform()
+}
